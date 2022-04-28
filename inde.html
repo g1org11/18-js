@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="slider-wrapper">
+      <div class="slider-item active">
+        <img src="https://picsum.photos/1200/400?random=1" />
+        <div class="caption"></div>
+      </div>
+      <div class="slider-item">
+        <img src="https://picsum.photos/1200/400?random=2" />
+        <div class="caption"></div>
+      </div>
+      <div class="slider-item">
+        <img src="https://picsum.photos/1200/400?random=3" />
+        <div class="caption"></div>
+      </div>
+    </div>
+    <div class="slider-btns">
+      <button id="prev-slide-btn"><<</button>
+      <button id="next-slide-btn">>></button>
+    </div>
+    <div class="autoSlides">
+      <button id="start_btn">startAutoSliding</button>
+      <button id="stop_btn">stopAutoSliding</button>
+    </div>
+
+    <div class="dots">
+      <button class="point"></button>
+      <button class="point"></button>
+      <button class="point"></button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
